@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D488DB6214A7473F00EDEEE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D488DB6114A7473F00EDEEE5 /* UIKit.framework */; };
+		D488DB6414A7473F00EDEEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D488DB6314A7473F00EDEEE5 /* Foundation.framework */; };
+		D488DB6614A7473F00EDEEE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D488DB6514A7473F00EDEEE5 /* CoreGraphics.framework */; };
+		D488DB6C14A7473F00EDEEE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D488DB6A14A7473F00EDEEE5 /* InfoPlist.strings */; };
+		D488DB6E14A7473F00EDEEE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D488DB6D14A7473F00EDEEE5 /* main.m */; };
+		D488DB7214A7473F00EDEEE5 /* SmashAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D488DB7114A7473F00EDEEE5 /* SmashAppDelegate.m */; };
+		D488DB7514A7473F00EDEEE5 /* SmashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D488DB7414A7473F00EDEEE5 /* SmashViewController.m */; };
+		D488DB7814A7473F00EDEEE5 /* SmashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D488DB7614A7473F00EDEEE5 /* SmashViewController.xib */; };
+		D488DB8314A7498900EDEEE5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D488DB7F14A7498900EDEEE5 /* Default.png */; };
+		D488DB8414A7498900EDEEE5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D488DB8014A7498900EDEEE5 /* Icon.png */; };
+		D488DB8514A7498900EDEEE5 /* Target-Smashed.png in Resources */ = {isa = PBXBuildFile; fileRef = D488DB8114A7498900EDEEE5 /* Target-Smashed.png */; };
+		D488DB8614A7498900EDEEE5 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = D488DB8214A7498900EDEEE5 /* Target.png */; };
+		D488DB8914A7499900EDEEE5 /* Smash.caf in Resources */ = {isa = PBXBuildFile; fileRef = D488DB8814A7499900EDEEE5 /* Smash.caf */; };
+		D488DB8B14A760AE00EDEEE5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D488DB8A14A760AE00EDEEE5 /* AudioToolbox.framework */; };
+		D4D1723A14A95FAF00287539 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D1723614A95FAF00287539 /* Default@2x.png */; };
+		D4D1723B14A95FAF00287539 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D1723714A95FAF00287539 /* Icon@2x.png */; };
+		D4D1723C14A95FAF00287539 /* Target-Smashed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D1723814A95FAF00287539 /* Target-Smashed@2x.png */; };
+		D4D1723D14A95FAF00287539 /* Target@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D1723914A95FAF00287539 /* Target@2x.png */; };
+		D4D1724214A960B900287539 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D1724014A960B900287539 /* Default-Portrait~ipad.png */; };
+		D4D1724314A960B900287539 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D1724114A960B900287539 /* Icon-72.png */; };
+		D4D1724514A9616600287539 /* SmashViewController~ipad.xid.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D1724414A9616600287539 /* SmashViewController~ipad.xid.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D488DB5D14A7473F00EDEEE5 /* Smash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D488DB6114A7473F00EDEEE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D488DB6314A7473F00EDEEE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D488DB6514A7473F00EDEEE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D488DB6914A7473F00EDEEE5 /* Smash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smash-Info.plist"; sourceTree = "<group>"; };
+		D488DB6B14A7473F00EDEEE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D488DB6D14A7473F00EDEEE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D488DB6F14A7473F00EDEEE5 /* Smash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smash-Prefix.pch"; sourceTree = "<group>"; };
+		D488DB7014A7473F00EDEEE5 /* SmashAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmashAppDelegate.h; sourceTree = "<group>"; };
+		D488DB7114A7473F00EDEEE5 /* SmashAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmashAppDelegate.m; sourceTree = "<group>"; };
+		D488DB7314A7473F00EDEEE5 /* SmashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmashViewController.h; sourceTree = "<group>"; };
+		D488DB7414A7473F00EDEEE5 /* SmashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmashViewController.m; sourceTree = "<group>"; };
+		D488DB7714A7473F00EDEEE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SmashViewController.xib; sourceTree = "<group>"; };
+		D488DB7F14A7498900EDEEE5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D488DB8014A7498900EDEEE5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D488DB8114A7498900EDEEE5 /* Target-Smashed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Target-Smashed.png"; sourceTree = "<group>"; };
+		D488DB8214A7498900EDEEE5 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Target.png; sourceTree = "<group>"; };
+		D488DB8814A7499900EDEEE5 /* Smash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Smash.caf; sourceTree = "<group>"; };
+		D488DB8A14A760AE00EDEEE5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D4D1723614A95FAF00287539 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D4D1723714A95FAF00287539 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D4D1723814A95FAF00287539 /* Target-Smashed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Target-Smashed@2x.png"; sourceTree = "<group>"; };
+		D4D1723914A95FAF00287539 /* Target@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Target@2x.png"; sourceTree = "<group>"; };
+		D4D1724014A960B900287539 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		D4D1724114A960B900287539 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		D4D1724414A9616600287539 /* SmashViewController~ipad.xid.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SmashViewController~ipad.xid.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D488DB5A14A7473F00EDEEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D488DB8B14A760AE00EDEEE5 /* AudioToolbox.framework in Frameworks */,
+				D488DB6214A7473F00EDEEE5 /* UIKit.framework in Frameworks */,
+				D488DB6414A7473F00EDEEE5 /* Foundation.framework in Frameworks */,
+				D488DB6614A7473F00EDEEE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D488DB5214A7473E00EDEEE5 = {
+			isa = PBXGroup;
+			children = (
+				D4D1724414A9616600287539 /* SmashViewController~ipad.xid.xib */,
+				D4D1723F14A960B900287539 /* Images-iPad */,
+				D4D1723514A95FAF00287539 /* Images-Retina */,
+				D488DB8A14A760AE00EDEEE5 /* AudioToolbox.framework */,
+				D488DB8714A7499900EDEEE5 /* Sounds */,
+				D488DB7E14A7498900EDEEE5 /* Images */,
+				D488DB6714A7473F00EDEEE5 /* Smash */,
+				D488DB6014A7473F00EDEEE5 /* Frameworks */,
+				D488DB5E14A7473F00EDEEE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D488DB5E14A7473F00EDEEE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D488DB5D14A7473F00EDEEE5 /* Smash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D488DB6014A7473F00EDEEE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D488DB6114A7473F00EDEEE5 /* UIKit.framework */,
+				D488DB6314A7473F00EDEEE5 /* Foundation.framework */,
+				D488DB6514A7473F00EDEEE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D488DB6714A7473F00EDEEE5 /* Smash */ = {
+			isa = PBXGroup;
+			children = (
+				D488DB7014A7473F00EDEEE5 /* SmashAppDelegate.h */,
+				D488DB7114A7473F00EDEEE5 /* SmashAppDelegate.m */,
+				D488DB7314A7473F00EDEEE5 /* SmashViewController.h */,
+				D488DB7414A7473F00EDEEE5 /* SmashViewController.m */,
+				D488DB7614A7473F00EDEEE5 /* SmashViewController.xib */,
+				D488DB6814A7473F00EDEEE5 /* Supporting Files */,
+			);
+			path = Smash;
+			sourceTree = "<group>";
+		};
+		D488DB6814A7473F00EDEEE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D488DB6914A7473F00EDEEE5 /* Smash-Info.plist */,
+				D488DB6A14A7473F00EDEEE5 /* InfoPlist.strings */,
+				D488DB6D14A7473F00EDEEE5 /* main.m */,
+				D488DB6F14A7473F00EDEEE5 /* Smash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D488DB7E14A7498900EDEEE5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D488DB7F14A7498900EDEEE5 /* Default.png */,
+				D488DB8014A7498900EDEEE5 /* Icon.png */,
+				D488DB8114A7498900EDEEE5 /* Target-Smashed.png */,
+				D488DB8214A7498900EDEEE5 /* Target.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D488DB8714A7499900EDEEE5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D488DB8814A7499900EDEEE5 /* Smash.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		D4D1723514A95FAF00287539 /* Images-Retina */ = {
+			isa = PBXGroup;
+			children = (
+				D4D1723614A95FAF00287539 /* Default@2x.png */,
+				D4D1723714A95FAF00287539 /* Icon@2x.png */,
+				D4D1723814A95FAF00287539 /* Target-Smashed@2x.png */,
+				D4D1723914A95FAF00287539 /* Target@2x.png */,
+			);
+			path = "Images-Retina";
+			sourceTree = "<group>";
+		};
+		D4D1723F14A960B900287539 /* Images-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D4D1724014A960B900287539 /* Default-Portrait~ipad.png */,
+				D4D1724114A960B900287539 /* Icon-72.png */,
+			);
+			path = "Images-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D488DB5C14A7473F00EDEEE5 /* Smash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D488DB7B14A7473F00EDEEE5 /* Build configuration list for PBXNativeTarget "Smash" */;
+			buildPhases = (
+				D488DB5914A7473F00EDEEE5 /* Sources */,
+				D488DB5A14A7473F00EDEEE5 /* Frameworks */,
+				D488DB5B14A7473F00EDEEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smash;
+			productName = Smash;
+			productReference = D488DB5D14A7473F00EDEEE5 /* Smash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D488DB5414A7473E00EDEEE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "東京工科大学大学院";
+			};
+			buildConfigurationList = D488DB5714A7473E00EDEEE5 /* Build configuration list for PBXProject "Smash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D488DB5214A7473E00EDEEE5;
+			productRefGroup = D488DB5E14A7473F00EDEEE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D488DB5C14A7473F00EDEEE5 /* Smash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D488DB5B14A7473F00EDEEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D488DB6C14A7473F00EDEEE5 /* InfoPlist.strings in Resources */,
+				D488DB7814A7473F00EDEEE5 /* SmashViewController.xib in Resources */,
+				D488DB8314A7498900EDEEE5 /* Default.png in Resources */,
+				D488DB8414A7498900EDEEE5 /* Icon.png in Resources */,
+				D488DB8514A7498900EDEEE5 /* Target-Smashed.png in Resources */,
+				D488DB8614A7498900EDEEE5 /* Target.png in Resources */,
+				D488DB8914A7499900EDEEE5 /* Smash.caf in Resources */,
+				D4D1723A14A95FAF00287539 /* Default@2x.png in Resources */,
+				D4D1723B14A95FAF00287539 /* Icon@2x.png in Resources */,
+				D4D1723C14A95FAF00287539 /* Target-Smashed@2x.png in Resources */,
+				D4D1723D14A95FAF00287539 /* Target@2x.png in Resources */,
+				D4D1724214A960B900287539 /* Default-Portrait~ipad.png in Resources */,
+				D4D1724314A960B900287539 /* Icon-72.png in Resources */,
+				D4D1724514A9616600287539 /* SmashViewController~ipad.xid.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D488DB5914A7473F00EDEEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D488DB6E14A7473F00EDEEE5 /* main.m in Sources */,
+				D488DB7214A7473F00EDEEE5 /* SmashAppDelegate.m in Sources */,
+				D488DB7514A7473F00EDEEE5 /* SmashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D488DB6A14A7473F00EDEEE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D488DB6B14A7473F00EDEEE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D488DB7614A7473F00EDEEE5 /* SmashViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D488DB7714A7473F00EDEEE5 /* en */,
+			);
+			name = SmashViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D488DB7914A7473F00EDEEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D488DB7A14A7473F00EDEEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D488DB7C14A7473F00EDEEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smash/Smash-Prefix.pch";
+				INFOPLIST_FILE = "Smash/Smash-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D488DB7D14A7473F00EDEEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smash/Smash-Prefix.pch";
+				INFOPLIST_FILE = "Smash/Smash-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D488DB5714A7473E00EDEEE5 /* Build configuration list for PBXProject "Smash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D488DB7914A7473F00EDEEE5 /* Debug */,
+				D488DB7A14A7473F00EDEEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D488DB7B14A7473F00EDEEE5 /* Build configuration list for PBXNativeTarget "Smash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D488DB7C14A7473F00EDEEE5 /* Debug */,
+				D488DB7D14A7473F00EDEEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D488DB5414A7473E00EDEEE5 /* Project object */;
+}

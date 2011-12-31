@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D499F10614AF0FCE00C74F41 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D499F10514AF0FCE00C74F41 /* AudioToolbox.framework */; };
+		D499F10914AF12E800C74F41 /* Beep.caf in Resources */ = {isa = PBXBuildFile; fileRef = D499F10814AF12E800C74F41 /* Beep.caf */; };
+		D4CFA44C14AED3D700C8F2C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CFA44B14AED3D700C8F2C3 /* UIKit.framework */; };
+		D4CFA44E14AED3D700C8F2C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CFA44D14AED3D700C8F2C3 /* Foundation.framework */; };
+		D4CFA45014AED3D700C8F2C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CFA44F14AED3D700C8F2C3 /* CoreGraphics.framework */; };
+		D4CFA45614AED3D700C8F2C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CFA45414AED3D700C8F2C3 /* InfoPlist.strings */; };
+		D4CFA45814AED3D700C8F2C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFA45714AED3D700C8F2C3 /* main.m */; };
+		D4CFA45C14AED3D800C8F2C3 /* BalanceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFA45B14AED3D800C8F2C3 /* BalanceAppDelegate.m */; };
+		D4CFA45F14AED3D800C8F2C3 /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFA45E14AED3D800C8F2C3 /* BalanceViewController.m */; };
+		D4CFA46214AED3D800C8F2C3 /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CFA46014AED3D800C8F2C3 /* BalanceViewController.xib */; };
+		D4CFA46D14AED47100C8F2C3 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CFA46914AED47100C8F2C3 /* Ball.png */; };
+		D4CFA46E14AED47100C8F2C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CFA46A14AED47100C8F2C3 /* Default.png */; };
+		D4CFA46F14AED47100C8F2C3 /* Frame-Flashed.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CFA46B14AED47100C8F2C3 /* Frame-Flashed.png */; };
+		D4CFA47014AED47100C8F2C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CFA46C14AED47100C8F2C3 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D499F10514AF0FCE00C74F41 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D499F10814AF12E800C74F41 /* Beep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beep.caf; sourceTree = "<group>"; };
+		D4CFA44714AED3D700C8F2C3 /* Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CFA44B14AED3D700C8F2C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4CFA44D14AED3D700C8F2C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4CFA44F14AED3D700C8F2C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4CFA45314AED3D700C8F2C3 /* Balance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Balance-Info.plist"; sourceTree = "<group>"; };
+		D4CFA45514AED3D700C8F2C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4CFA45714AED3D700C8F2C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4CFA45914AED3D800C8F2C3 /* Balance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Balance-Prefix.pch"; sourceTree = "<group>"; };
+		D4CFA45A14AED3D800C8F2C3 /* BalanceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalanceAppDelegate.h; sourceTree = "<group>"; };
+		D4CFA45B14AED3D800C8F2C3 /* BalanceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BalanceAppDelegate.m; sourceTree = "<group>"; };
+		D4CFA45D14AED3D800C8F2C3 /* BalanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
+		D4CFA45E14AED3D800C8F2C3 /* BalanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
+		D4CFA46114AED3D800C8F2C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BalanceViewController.xib; sourceTree = "<group>"; };
+		D4CFA46914AED47100C8F2C3 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		D4CFA46A14AED47100C8F2C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D4CFA46B14AED47100C8F2C3 /* Frame-Flashed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frame-Flashed.png"; sourceTree = "<group>"; };
+		D4CFA46C14AED47100C8F2C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4CFA44414AED3D700C8F2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D499F10614AF0FCE00C74F41 /* AudioToolbox.framework in Frameworks */,
+				D4CFA44C14AED3D700C8F2C3 /* UIKit.framework in Frameworks */,
+				D4CFA44E14AED3D700C8F2C3 /* Foundation.framework in Frameworks */,
+				D4CFA45014AED3D700C8F2C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D499F10714AF12E800C74F41 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D499F10814AF12E800C74F41 /* Beep.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		D4CFA43C14AED3D600C8F2C3 = {
+			isa = PBXGroup;
+			children = (
+				D499F10714AF12E800C74F41 /* Sounds */,
+				D499F10514AF0FCE00C74F41 /* AudioToolbox.framework */,
+				D4CFA46814AED47100C8F2C3 /* Images */,
+				D4CFA45114AED3D700C8F2C3 /* Balance */,
+				D4CFA44A14AED3D700C8F2C3 /* Frameworks */,
+				D4CFA44814AED3D700C8F2C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4CFA44814AED3D700C8F2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CFA44714AED3D700C8F2C3 /* Balance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4CFA44A14AED3D700C8F2C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4CFA44B14AED3D700C8F2C3 /* UIKit.framework */,
+				D4CFA44D14AED3D700C8F2C3 /* Foundation.framework */,
+				D4CFA44F14AED3D700C8F2C3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4CFA45114AED3D700C8F2C3 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				D4CFA45A14AED3D800C8F2C3 /* BalanceAppDelegate.h */,
+				D4CFA45B14AED3D800C8F2C3 /* BalanceAppDelegate.m */,
+				D4CFA45D14AED3D800C8F2C3 /* BalanceViewController.h */,
+				D4CFA45E14AED3D800C8F2C3 /* BalanceViewController.m */,
+				D4CFA46014AED3D800C8F2C3 /* BalanceViewController.xib */,
+				D4CFA45214AED3D700C8F2C3 /* Supporting Files */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
+		D4CFA45214AED3D700C8F2C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CFA45314AED3D700C8F2C3 /* Balance-Info.plist */,
+				D4CFA45414AED3D700C8F2C3 /* InfoPlist.strings */,
+				D4CFA45714AED3D700C8F2C3 /* main.m */,
+				D4CFA45914AED3D800C8F2C3 /* Balance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4CFA46814AED47100C8F2C3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D4CFA46914AED47100C8F2C3 /* Ball.png */,
+				D4CFA46A14AED47100C8F2C3 /* Default.png */,
+				D4CFA46B14AED47100C8F2C3 /* Frame-Flashed.png */,
+				D4CFA46C14AED47100C8F2C3 /* Icon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4CFA44614AED3D700C8F2C3 /* Balance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CFA46514AED3D800C8F2C3 /* Build configuration list for PBXNativeTarget "Balance" */;
+			buildPhases = (
+				D4CFA44314AED3D700C8F2C3 /* Sources */,
+				D4CFA44414AED3D700C8F2C3 /* Frameworks */,
+				D4CFA44514AED3D700C8F2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Balance;
+			productName = Balance;
+			productReference = D4CFA44714AED3D700C8F2C3 /* Balance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4CFA43E14AED3D600C8F2C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "東京工科大学大学院";
+			};
+			buildConfigurationList = D4CFA44114AED3D600C8F2C3 /* Build configuration list for PBXProject "Balance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4CFA43C14AED3D600C8F2C3;
+			productRefGroup = D4CFA44814AED3D700C8F2C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4CFA44614AED3D700C8F2C3 /* Balance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4CFA44514AED3D700C8F2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CFA45614AED3D700C8F2C3 /* InfoPlist.strings in Resources */,
+				D4CFA46214AED3D800C8F2C3 /* BalanceViewController.xib in Resources */,
+				D4CFA46D14AED47100C8F2C3 /* Ball.png in Resources */,
+				D4CFA46E14AED47100C8F2C3 /* Default.png in Resources */,
+				D4CFA46F14AED47100C8F2C3 /* Frame-Flashed.png in Resources */,
+				D4CFA47014AED47100C8F2C3 /* Icon.png in Resources */,
+				D499F10914AF12E800C74F41 /* Beep.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4CFA44314AED3D700C8F2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CFA45814AED3D700C8F2C3 /* main.m in Sources */,
+				D4CFA45C14AED3D800C8F2C3 /* BalanceAppDelegate.m in Sources */,
+				D4CFA45F14AED3D800C8F2C3 /* BalanceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4CFA45414AED3D700C8F2C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CFA45514AED3D700C8F2C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4CFA46014AED3D800C8F2C3 /* BalanceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CFA46114AED3D800C8F2C3 /* en */,
+			);
+			name = BalanceViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4CFA46314AED3D800C8F2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4CFA46414AED3D800C8F2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4CFA46614AED3D800C8F2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Balance/Balance-Prefix.pch";
+				INFOPLIST_FILE = "Balance/Balance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4CFA46714AED3D800C8F2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Balance/Balance-Prefix.pch";
+				INFOPLIST_FILE = "Balance/Balance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4CFA44114AED3D600C8F2C3 /* Build configuration list for PBXProject "Balance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CFA46314AED3D800C8F2C3 /* Debug */,
+				D4CFA46414AED3D800C8F2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CFA46514AED3D800C8F2C3 /* Build configuration list for PBXNativeTarget "Balance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CFA46614AED3D800C8F2C3 /* Debug */,
+				D4CFA46714AED3D800C8F2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4CFA43E14AED3D600C8F2C3 /* Project object */;
+}

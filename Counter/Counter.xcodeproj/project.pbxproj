@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45432E414A6E8D700D02A2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45432E314A6E8D700D02A2D /* UIKit.framework */; };
+		D45432E614A6E8D700D02A2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45432E514A6E8D700D02A2D /* Foundation.framework */; };
+		D45432E814A6E8D700D02A2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45432E714A6E8D700D02A2D /* CoreGraphics.framework */; };
+		D45432EE14A6E8D700D02A2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D45432EC14A6E8D700D02A2D /* InfoPlist.strings */; };
+		D45432F014A6E8D700D02A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D45432EF14A6E8D700D02A2D /* main.m */; };
+		D45432F414A6E8D700D02A2D /* CounterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D45432F314A6E8D700D02A2D /* CounterAppDelegate.m */; };
+		D45432F714A6E8D700D02A2D /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45432F614A6E8D700D02A2D /* CounterViewController.m */; };
+		D45432FA14A6E8D700D02A2D /* CounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45432F814A6E8D700D02A2D /* CounterViewController.xib */; };
+		D454330914A7005600D02A2D /* Button-Clear-Pushed.png in Resources */ = {isa = PBXBuildFile; fileRef = D454330114A7005600D02A2D /* Button-Clear-Pushed.png */; };
+		D454330A14A7005600D02A2D /* Button-Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D454330214A7005600D02A2D /* Button-Clear.png */; };
+		D454330B14A7005600D02A2D /* Button-Minus-Pushed.png in Resources */ = {isa = PBXBuildFile; fileRef = D454330314A7005600D02A2D /* Button-Minus-Pushed.png */; };
+		D454330C14A7005600D02A2D /* Button-Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = D454330414A7005600D02A2D /* Button-Minus.png */; };
+		D454330D14A7005600D02A2D /* Button-Plus-Pushed.png in Resources */ = {isa = PBXBuildFile; fileRef = D454330514A7005600D02A2D /* Button-Plus-Pushed.png */; };
+		D454330E14A7005600D02A2D /* Button-Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = D454330614A7005600D02A2D /* Button-Plus.png */; };
+		D454330F14A7005600D02A2D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D454330714A7005600D02A2D /* Default.png */; };
+		D454331014A7005600D02A2D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D454330814A7005600D02A2D /* Icon.png */; };
+		D454331214A71B8800D02A2D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454331114A71B8800D02A2D /* AudioToolbox.framework */; };
+		D48ACB4E14A733020002805A /* cancel5.wav in Resources */ = {isa = PBXBuildFile; fileRef = D48ACB4D14A733020002805A /* cancel5.wav */; };
+		D48ACB5414A737E90002805A /* cancel4.wav in Resources */ = {isa = PBXBuildFile; fileRef = D48ACB5014A737E90002805A /* cancel4.wav */; };
+		D48ACB5614A737E90002805A /* decide17.wav in Resources */ = {isa = PBXBuildFile; fileRef = D48ACB5214A737E90002805A /* decide17.wav */; };
+		D48ACB5714A737E90002805A /* decide20.wav in Resources */ = {isa = PBXBuildFile; fileRef = D48ACB5314A737E90002805A /* decide20.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D45432DF14A6E8D700D02A2D /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45432E314A6E8D700D02A2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D45432E514A6E8D700D02A2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D45432E714A6E8D700D02A2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D45432EB14A6E8D700D02A2D /* Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Counter-Info.plist"; sourceTree = "<group>"; };
+		D45432ED14A6E8D700D02A2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D45432EF14A6E8D700D02A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D45432F114A6E8D700D02A2D /* Counter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Counter-Prefix.pch"; sourceTree = "<group>"; };
+		D45432F214A6E8D700D02A2D /* CounterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CounterAppDelegate.h; sourceTree = "<group>"; };
+		D45432F314A6E8D700D02A2D /* CounterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterAppDelegate.m; sourceTree = "<group>"; };
+		D45432F514A6E8D700D02A2D /* CounterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
+		D45432F614A6E8D700D02A2D /* CounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
+		D45432F914A6E8D700D02A2D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CounterViewController.xib; sourceTree = "<group>"; };
+		D454330114A7005600D02A2D /* Button-Clear-Pushed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Clear-Pushed.png"; sourceTree = "<group>"; };
+		D454330214A7005600D02A2D /* Button-Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Clear.png"; sourceTree = "<group>"; };
+		D454330314A7005600D02A2D /* Button-Minus-Pushed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Minus-Pushed.png"; sourceTree = "<group>"; };
+		D454330414A7005600D02A2D /* Button-Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Minus.png"; sourceTree = "<group>"; };
+		D454330514A7005600D02A2D /* Button-Plus-Pushed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Plus-Pushed.png"; sourceTree = "<group>"; };
+		D454330614A7005600D02A2D /* Button-Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Plus.png"; sourceTree = "<group>"; };
+		D454330714A7005600D02A2D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D454330814A7005600D02A2D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D454331114A71B8800D02A2D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D48ACB4D14A733020002805A /* cancel5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cancel5.wav; sourceTree = "<group>"; };
+		D48ACB5014A737E90002805A /* cancel4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cancel4.wav; sourceTree = "<group>"; };
+		D48ACB5214A737E90002805A /* decide17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = decide17.wav; sourceTree = "<group>"; };
+		D48ACB5314A737E90002805A /* decide20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = decide20.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45432DC14A6E8D600D02A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D454331214A71B8800D02A2D /* AudioToolbox.framework in Frameworks */,
+				D45432E414A6E8D700D02A2D /* UIKit.framework in Frameworks */,
+				D45432E614A6E8D700D02A2D /* Foundation.framework in Frameworks */,
+				D45432E814A6E8D700D02A2D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45432D414A6E8D500D02A2D = {
+			isa = PBXGroup;
+			children = (
+				D48ACB4C14A733020002805A /* Sounds */,
+				D454331114A71B8800D02A2D /* AudioToolbox.framework */,
+				D454330014A7005600D02A2D /* Images */,
+				D45432E914A6E8D700D02A2D /* Counter */,
+				D45432E214A6E8D700D02A2D /* Frameworks */,
+				D45432E014A6E8D700D02A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45432E014A6E8D700D02A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45432DF14A6E8D700D02A2D /* Counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45432E214A6E8D700D02A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45432E314A6E8D700D02A2D /* UIKit.framework */,
+				D45432E514A6E8D700D02A2D /* Foundation.framework */,
+				D45432E714A6E8D700D02A2D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D45432E914A6E8D700D02A2D /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				D45432F214A6E8D700D02A2D /* CounterAppDelegate.h */,
+				D45432F314A6E8D700D02A2D /* CounterAppDelegate.m */,
+				D45432F514A6E8D700D02A2D /* CounterViewController.h */,
+				D45432F614A6E8D700D02A2D /* CounterViewController.m */,
+				D45432F814A6E8D700D02A2D /* CounterViewController.xib */,
+				D45432EA14A6E8D700D02A2D /* Supporting Files */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
+		D45432EA14A6E8D700D02A2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D45432EB14A6E8D700D02A2D /* Counter-Info.plist */,
+				D45432EC14A6E8D700D02A2D /* InfoPlist.strings */,
+				D45432EF14A6E8D700D02A2D /* main.m */,
+				D45432F114A6E8D700D02A2D /* Counter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D454330014A7005600D02A2D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D454330114A7005600D02A2D /* Button-Clear-Pushed.png */,
+				D454330214A7005600D02A2D /* Button-Clear.png */,
+				D454330314A7005600D02A2D /* Button-Minus-Pushed.png */,
+				D454330414A7005600D02A2D /* Button-Minus.png */,
+				D454330514A7005600D02A2D /* Button-Plus-Pushed.png */,
+				D454330614A7005600D02A2D /* Button-Plus.png */,
+				D454330714A7005600D02A2D /* Default.png */,
+				D454330814A7005600D02A2D /* Icon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D48ACB4C14A733020002805A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D48ACB5014A737E90002805A /* cancel4.wav */,
+				D48ACB5214A737E90002805A /* decide17.wav */,
+				D48ACB5314A737E90002805A /* decide20.wav */,
+				D48ACB4D14A733020002805A /* cancel5.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45432DE14A6E8D600D02A2D /* Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45432FD14A6E8D700D02A2D /* Build configuration list for PBXNativeTarget "Counter" */;
+			buildPhases = (
+				D45432DB14A6E8D600D02A2D /* Sources */,
+				D45432DC14A6E8D600D02A2D /* Frameworks */,
+				D45432DD14A6E8D600D02A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Counter;
+			productName = Counter;
+			productReference = D45432DF14A6E8D700D02A2D /* Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45432D614A6E8D600D02A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "東京工科大学大学院";
+			};
+			buildConfigurationList = D45432D914A6E8D600D02A2D /* Build configuration list for PBXProject "Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D45432D414A6E8D500D02A2D;
+			productRefGroup = D45432E014A6E8D700D02A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45432DE14A6E8D600D02A2D /* Counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45432DD14A6E8D600D02A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45432EE14A6E8D700D02A2D /* InfoPlist.strings in Resources */,
+				D45432FA14A6E8D700D02A2D /* CounterViewController.xib in Resources */,
+				D454330914A7005600D02A2D /* Button-Clear-Pushed.png in Resources */,
+				D454330A14A7005600D02A2D /* Button-Clear.png in Resources */,
+				D454330B14A7005600D02A2D /* Button-Minus-Pushed.png in Resources */,
+				D454330C14A7005600D02A2D /* Button-Minus.png in Resources */,
+				D454330D14A7005600D02A2D /* Button-Plus-Pushed.png in Resources */,
+				D454330E14A7005600D02A2D /* Button-Plus.png in Resources */,
+				D454330F14A7005600D02A2D /* Default.png in Resources */,
+				D454331014A7005600D02A2D /* Icon.png in Resources */,
+				D48ACB4E14A733020002805A /* cancel5.wav in Resources */,
+				D48ACB5414A737E90002805A /* cancel4.wav in Resources */,
+				D48ACB5614A737E90002805A /* decide17.wav in Resources */,
+				D48ACB5714A737E90002805A /* decide20.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45432DB14A6E8D600D02A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45432F014A6E8D700D02A2D /* main.m in Sources */,
+				D45432F414A6E8D700D02A2D /* CounterAppDelegate.m in Sources */,
+				D45432F714A6E8D700D02A2D /* CounterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D45432EC14A6E8D700D02A2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45432ED14A6E8D700D02A2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D45432F814A6E8D700D02A2D /* CounterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45432F914A6E8D700D02A2D /* en */,
+			);
+			name = CounterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45432FB14A6E8D700D02A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D45432FC14A6E8D700D02A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45432FE14A6E8D700D02A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Counter/Counter-Prefix.pch";
+				INFOPLIST_FILE = "Counter/Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D45432FF14A6E8D700D02A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Counter/Counter-Prefix.pch";
+				INFOPLIST_FILE = "Counter/Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45432D914A6E8D600D02A2D /* Build configuration list for PBXProject "Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45432FB14A6E8D700D02A2D /* Debug */,
+				D45432FC14A6E8D700D02A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45432FD14A6E8D700D02A2D /* Build configuration list for PBXNativeTarget "Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45432FE14A6E8D700D02A2D /* Debug */,
+				D45432FF14A6E8D700D02A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45432D614A6E8D600D02A2D /* Project object */;
+}
